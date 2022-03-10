@@ -14,4 +14,4 @@ compile:
 	deno compile --allow-all mod.ts
 
 scrape:
-	deno run --allow-all scrape.ts
+	deno run --allow-all utils/scrape.ts
