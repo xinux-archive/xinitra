@@ -1,7 +1,44 @@
 [
-    {
-        "name": "Terminal haqida. Kirish",
-        "desc": "Ushbu darslikda terminal haqida o'rganilib chiqiladi.",
-        "link": "https://www.youtube.com/watch?v=D0KIzTJBtpI" 
-    }
+  {
+    "name": "Terminal 1 - Dars | Kirish | Boshlang’ichlar uchun.",
+    "desc": "Har - bir dasturchi bilishi kerak bo'lgan narsalardan biri Terminaldir. Bu darslikda biz Terminal haqida ozgina ma'lumot berib o'tamiz.",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=D0KIzTJBtpI"
+  },
+  {
+    "name": "Terminal 2 - Dars | ls, man, pwd, mkdir, cd, mv, rm, touch, cp...",
+    "desc": "Bu darsda biz terminal komandalaridan ls, cd, mkdir, rm, rmdir, touch va boshqa...",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=562iX-3hgs0"
+  },
+  {
+    "name": "Terminal 3-Dars | atributlar haqida",
+    "desc": "2-darsimizda o'tgan terminal komandalarimizi atribut bilan ishlatishni o'rganamiz.",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=Vrl3737IsJM"
+  },
+  {
+    "name": "Terminal 4-Dars | dasturlarni terminal orqalik o'rnatish",
+    "desc": "Terminal orqalik dastur o'rnatish, o'chirish va mavjud bo'lgan dasturni yangilash va shunga o'xshash komandalarni o'rganamiz...",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=OFH--tVzGkg"
+  },
+  {
+    "name": "Terminal 5-Dars | Bonus",
+    "desc": "Ushbu darligimizda Ikki hil uslubda yangi kataloglarni ochamiz.",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=BIcCskrJ1J8"
+  },
+  {
+    "name": "Terminal 6-Dars | cat, more, head, tail and less",
+    "desc": "Terminal orqalik txt fayillar qanday ochiladi va qanday o'zgartirililishi haqida so'z boradi.",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=VED6Iv5eEfE"
+  },
+  {
+    "name": "Terminal 7 - Dars | zip, unzip",
+    "desc": "Terminal orqalik hujjatlarni ziplashni o'rganamiz.",
+    "author": "Ixtirochi avlodlar",
+    "link": "https://www.youtube.com/watch?v=PeUk1Aski18"
+  }
 ]
