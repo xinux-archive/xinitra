@@ -6,7 +6,7 @@ export const message: string =
   `<b>Xinitra (Ksinitra) Yordamchisiga Xush Kelibsiz!</b> \n` +
   `\n` +
   `Ushbu bot yordamida siz inline rejimi orqali darsliklar qidirishingiz mumkin! ` +
-  `Ushbu bot Xinux va Mad Maids jamiyati tomonidan taqdim etiladi.`;
+  `Ushbu bot Xinux va Mad Maids jamiyati tomonidan ishlab chiqilgan.`;
 
 export const keyboard = new InlineKeyboard()
   .url("Jamiyat", "https://t.me/xinuxuz")

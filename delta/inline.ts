@@ -1,19 +1,21 @@
-import { Composer, Context, InlineKeyboard, Fuse } from "../deps.ts";
+import { Composer, Context, Fuse, InlineKeyboard } from "../deps.ts";
 import data from "../all.json" assert { type: "json" };
-import {Video} from "../types/videos.ts";
+import { Video } from "../types/videos.ts";
 const composer = new Composer();
 
 const options = {
   keys: [
     "name",
-    "desc"
-  ]
+    "desc",
+  ],
 };
 const fuse = new Fuse.default(data, options);
 
 composer.inlineQuery(/(.*)/ig, async (ctx: Context): Promise<any> => {
   if (ctx.inlineQuery?.query) {
-    const search = fuse.search(ctx.inlineQuery?.query).map((item: any) => item.item)
+    const search = fuse.search(ctx.inlineQuery?.query).map((item: any) =>
+      item.item
+    ).slice(0, 49);
     return await ctx.answerInlineQuery(search.map((item: Video) => ({
       type: "article",
       id: crypto.randomUUID(),
@@ -24,9 +26,11 @@ composer.inlineQuery(/(.*)/ig, async (ctx: Context): Promise<any> => {
         message_text: `<b>📃 Topilgan natija...</b>` +
           `\n` +
           `\n` +
-          `<b>${item.name}</b>` +
+          `✨ <b>Mavzu:</b> ${item.name}` +
           `\n` +
-          `${item.desc}`,
+          `🧑‍💻 <b>Muallif:</b> ${item.author}` +
+          `\n` +
+          `📄 <b>Tavsif:</b> ${item.desc}`,
         parse_mode: "HTML",
       },
     })));
@@ -36,11 +40,24 @@ composer.inlineQuery(/(.*)/ig, async (ctx: Context): Promise<any> => {
     return await ctx.answerInlineQuery([{
       type: "article",
       id: "404",
-      title: "Qidirilayotgan natija topilmadi...",
-      description: "Qidirilayotgan natijani kiriting",
-      reply_markup: new InlineKeyboard().switch,
+      title: "Qidirishni boshlang!",
+      description: "Qidirmoqchi bo'lgan paketingiz nomini yozing!",
+      reply_markup: new InlineKeyboard().switchInlineCurrent(
+        "Qayta urinib ko'ramizmi?",
+        "",
+      ),
       input_message_content: {
-        message_text: "Qidirilayotgan natijani kiriting...",
+        message_text: `<b>Salom foydalanuvchi!</b>` +
+          `\n` +
+          `\n` +
+          `Siz inline rejim ishga tushurdingiz. Ushbu qulaylik yordamida siz Xinux ` +
+          `Jamiyati yig'gan video darslik va gaydlarni telegram ichidan turib qidirishingiz mumkin. ` +
+          `\n` +
+          `\n` +
+          `<code>@xinitrabot &lt;kalit so'zlari&gt;</code>` +
+          `\n` +
+          `\n` +
+          `yozasiz va natijalar chiqishni boshlaydi...`,
         parse_mode: "HTML",
       },
     }]);
