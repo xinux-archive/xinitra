@@ -7,6 +7,7 @@ const options = {
   keys: [
     "name",
     "desc",
+    "author",
   ],
 };
 const fuse = new Fuse.default(data, options);
