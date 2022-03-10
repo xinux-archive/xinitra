@@ -5,7 +5,7 @@ dev:
 	deno run --watch --allow-all mod.ts
 
 fmt:
-	deno fmt
+	deno fmt --config deno.json
 
 lint:
 	deno lint
