@@ -4,5 +4,53 @@
     "desc": "VIM bo'yicha birinchi darsimizga xush kelibsiz\nBu videoda VIM haqida ma'lumot olasiz va uni qanday qilib OS o'rnatishni ko'rasiz",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=lq4w0-p_S64"
+  },
+  {
+    "name": "VIM Kursi 2-Dars | VIM ni o'rganish uchun manbalar",
+    "desc": "Assalomu Aleykum, bu videoda siz VIMni qaysi manbalar orqali o'rganish kerakligi haqida ma'lumot olasiz\n\nVIM Cheat Sheets\n\nhttps://vim.rtorr.com/\nhttps://devhints.io/vim\nhttps://www.cs.cmu.edu/~15131/f17/top...\nhttps://vimsheet.com/",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=ca6nI2bqaiA"
+  },
+  {
+    "name": "VIM Kursi 3-Dars | VIM Modes & VIM Navigation",
+    "desc": "Assalomu Aleykum, bu videoda siz VIM Modes & VIM Navigation haqida bilimlarga ega bo'lasiz\n\nVIM Cheat Sheet\nhttps://devhints.io/vim",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=Sfl4IWbbSgg"
+  },
+  {
+    "name": "VIM Kursi 4-Dars | Copy&Paste, Editing, Deleting",
+    "desc": "Assalomu Aleykum, bu videoda siz VIM da Copy&Paste&Delete va Editing haqida bilimlarga ega bo'lasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=T7GS83lk8ZQ"
+  },
+  {
+    "name": "VIM Kursi 5-Dars | Replace Mode va hokazolar...",
+    "desc": "Assalomu Aleykum, bu videoda siz VIM Replace Mode va boshqalar haqida ma'lumotga ega bo'lasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=Zy95R6XemNw"
+  },
+  {
+    "name": "VIM Kursi 6-Dars | VIM Tabs",
+    "desc": "Assalomu Aleykum, bu videoda siz VIM Tabs haqida ma'lumotga ega bo'lasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=NJXRTs6PT9Q"
+  },
+  {
+    "name": "VIM Kursi 7-Dars | VIMRC",
+    "desc": "Assalomu Aleykum, bu videoda siz VIMRC haqida ma'lumotga ega bo'lasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=i0kmGYDpyFI"
+  },
+  {
+    "name": "VIM Kursi 8-Dars | Install Plugins and more",
+    "desc": "Assalomu Aleykum, bu videoda siz VIM Plugins haqida ma'lumotga ega bo'lasiz va pluginlarni o'rnatishni hamda sozlashni o'rganasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=AcSTwYTFDKU"
+  },
+  {
+    "name": "VIM Kursi 9-Dars | VSCODE&VIM",
+    "desc": "Assalomu Aleykum, bu videoda siz VSCodega VIM Extension o'rnarib va sozlashni o'rganasiz",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=gi2QOcKKF4M"
   }
 ]
