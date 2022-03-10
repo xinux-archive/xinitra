@@ -31,7 +31,8 @@ composer.inlineQuery(/(.*)/ig, async (ctx: Context): Promise<any> => {
           `\n` +
           `🧑‍💻 <b>Muallif:</b> ${item.author}` +
           `\n` +
-          `📄 <b>Tavsif:</b> ${item.desc}`,
+          `\n` +
+          `${item.desc}`,
         parse_mode: "HTML",
       },
     })));
