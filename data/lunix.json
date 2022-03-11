@@ -58,5 +58,347 @@
     "desc": "Assalomu alaykum, vada qilinganidek darslarni yana boshlab oldik. Kanalga a'zo bo'ling va linuxni o'rganishni istayotgan do'stlaringizga ham yuboring\n\nVideoda nimalarni o'rgandik:\nLinuxni serverini ishga tushirish, sayt joylash\napache2 / start / stop / restart / status",
     "author": "Lunix",
     "link": "https://www.youtube.com/watch?v=WKdpRYfwx2I"
+  },
+  {
+    "name": "#11 Linux / Linuxdan server sifatida foydalanish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda nimalar o'rganamiz:\npython orqali server ishga tushirish / ngrok / websaytni link orqali ulashish",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=wtjeNUI6EUA"
+  },
+  {
+    "name": "#12 Linux / Hackthebox akademiyasi bilan tanishuv",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:  \nhackthebox akademiyasi bilan tanishuv, virtual linux sistemasi  /\nlinux ierarxiyasi va hkz...",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=CmJA2L-X02I"
+  },
+  {
+    "name": "#13 Linux / id komandasi",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:  \nid kommandasi va uning barcha argumentlari bilan ishlash / foydalanuvchiga guruh belgilash / foydalanuvchiga 2 hil usul bilan root huquqini berish",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=sH8KsUkSuKk"
+  },
+  {
+    "name": "#14 Linux / hostname komandasi",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:  \nhostname kommandasi va uning barcha argumentlari bilan ishlash ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=L4YK7ETirLU"
+  },
+  {
+    "name": "#15 Linux / uname komandasi",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:  \nuname kommandasi va uning barcha argumentlari bilan ishlash ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=XuzeznFqhRA"
+  },
+  {
+    "name": "#16 Linux / pwd komandasi",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:  \npwd kommandasi va uning barcha argumentlari bilan ishlash",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=9M68DjvGkUE"
+  },
+  {
+    "name": "#17 Linuxda INODElar nima ?",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\ninodelar haqida, ular nimaga kerak  va ular haqida ma'lumotlarni ko'rish. df va stat komandasi.\n\nSayt: https://lunix.uz/inode-nima/",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=hBmxEvQtWpc"
+  },
+  {
+    "name": "#18 Hard link va soft link",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\nHard link va soft link nima, ularning farqlari, foydali va kamchiliklari, qanday yaratilishini va ln buyrug'ini o'rganamiz",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=fAR3RSnAjlI"
+  },
+  {
+    "name": "#19 Dasturlarni o'rnatish turlari",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\nDasturlar va ularni o'rnatish turlari / deb / rpm / source code / repositoriya",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=Dw42LSmzeuk"
+  },
+  {
+    "name": "#20 chmod va fayl huquqlari",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\nlinux file tizimidagi huquqlar, foydalanuvchilarga, guruhlarga va boshqalarga faylni o'qish va yozish huquqlarini cheklash va chmod komandasi haqida o'rganamiz",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=XwF4J5QdiTE"
+  },
+  {
+    "name": "#21 Linuxda stdin stdout va stderr tushunchasi",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nLinuxda stdin stdout va stderr nima va ular nimaga kerak ?",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=-KVt9MFtrtg"
+  },
+  {
+    "name": "#23 Fayllarni arxivlash va kompreslash turlari",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nLinuxda fayllarni arxivlash /  kompreslash / hajmini qishqartirish / arxivlangan fayllarni arxivdan chiqarish / tar / bzip2 / gzip / xz va boshqa komandalar ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=wLHWKyE-hJo"
+  },
+  {
+    "name": "#24 Linux processlar bilan ishlash (1-qism)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nProtseslar bilan ishlash / ps / top / fork() / exec() va hkz\n\nPS: ps aux komandasidagi ma'lumotlarni tushunturishda protsessor deb chalkashib ketibman bu uchun uzur so'rayman, protsessorning aloqasi yo'q bu protses (ishga tushgan dastur yoki komanda jarayoni )",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=gV4y3Z34ugY"
+  },
+  {
+    "name": "#25 Linux processlar bilan ishlash (2-qism)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nGrafik holatda protseslar bilan osonroq ishlash / kill / killall / va hkz",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=aGg3URorZK8"
+  },
+  {
+    "name": "#26 Internet Protocol (IP) haqida",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nPublic / Private / Dinamic / Static IP / ipv4 / ipv6",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=E01D04h0cfI"
+  },
+  {
+    "name": "#27 TCP/IP va UDP haqida",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nTCP/IP / UDP / DATALINK / NETWORK / TRANSPORT /  APPLICATION",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=PbgojWdBujs"
+  },
+  {
+    "name": "#28 Tarmoq buyruqlari",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nip ifconfig / ping / resolv.conf /  netstat / ss / host / route",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=LLIpZbnwRyg"
+  },
+  {
+    "name": "#29 Nmap va Zenmapni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nnmap / zenmap / rpm fayllarini o'rnatish / alien / rpm",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=k2RAnWhtCV0"
+  },
+  {
+    "name": "#30 Wireshark orqali login parolni aniqlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nWireshark orqali real vaqtda foydalanuvchilarni kuzatish, internet trafiklarini tekshirish va analiz qilish, filterlash orqali login parolni aniqlash. \n\nWireshark cheat sheet: https://linc.uz/Eu0O8\nSlayd: https://linc.uz/av1Ee",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=2JScTWnICRo"
+  },
+  {
+    "name": "#31 tcpdump orqali login parolni aniqlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nTcpdump orqali real vaqtda foydalanuvchilarni kuzatish, internet trafiklarini tekshirish va analiz qilish, filterlash orqali login parolni aniqlash. \n\nWireshark cheat sheet: https://linc.uz/3V1RS\nSlayd: https://linc.uz/2cF6r",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=YMbWGImtSNE"
+  },
+  {
+    "name": "#32 Nmap va sayt / server / qurilma IPlarini skanerlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nNmap haqida batafsil ma'lumotlar / TCP, UDP, SYN va PING skanerlash turlari / SYN, ACK, RST paketlari\n\nSayt: https://lunix.uz/nmap-nima/\nNmap cheat sheet: https://lunix.uz/nmap-nima/#Nmap-chea...",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=niDJ68vSPGs"
+  },
+  {
+    "name": "#33 Linodeda shaxsiy VPN yaratish va server uchun 100$ bonus",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nLunode.com saytidan shaxsiy server olish va uni vpn sifatida foydalanish\n\nSayt: https://linode.com\nPromocode: 7gvc1azd5g yoki affiliates76 ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=qER5QVUlfNo"
+  },
+  {
+    "name": "#34 Loglar saqlanmaydigan xavfsiz VPN server tuzish #2",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nShaxsiy serverimizga boshqacha usulda VPN o'rnatamiz va serverdan vpn sifatida foydalanganda bizdagi saqlanadigan trafik loglarini saqlanib qolishining oldini olishni o'rganamiz.\n\nRepository: https://github.com/angristan/openvpn-...\nSayt: https://linode.com\nPromocode: 7gvc1azd5g yoki affiliates76 ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=htXjSy3UvOA"
+  },
+  {
+    "name": "#35 | , && , ; operatorlari",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\n|  ,  && ,  ;  operatorlaring vazifasi va ularni qanday ishlatish haqida o'rganamiz.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=tUU9uz9CA2I"
+  },
+  {
+    "name": "#35 Disklarni mountlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nDisklarni yoqish va o'chirish, mount / umount / lsblk / fuser \n\nSayt: https://lunix.uz/disklarni-mountlash/",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=2FxhIPZ7FJM"
+  },
+  {
+    "name": "#36 Hard diskdan RAM sifatida foydalanish, SWAP nima?",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nSwap fayli nima va u nima  / HARD DISKimizdan qanday qilib RAM sifatida foydalanish mumkin  / fallocate / dd / swapon / swapoff / mkswap / free buyruqlari\n \nSayt: https://lunix.uz/hard-diskdan-ram-sif...",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=TjiaKNTenKQ"
+  },
+  {
+    "name": "Tizim haqida ma'lumot beruvchi komandalar. (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nuname / uptime / hostname / last reboot / date / cal / w / whoami / finger\nbuyruqlari\n \nUname haqida darslik: https://youtu.be/XuzeznFqhRA\nHostname haqida darslik: https://youtu.be/L4YK7ETirLU",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=kc-WkMBIpvM"
+  },
+  {
+    "name": "Tizim haqida ma'lumot beruvchi komandalar. (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nuname / uptime / hostname / last reboot / date / cal / w / whoami / finger\nbuyruqlari\n \nUname haqida darslik: https://youtu.be/XuzeznFqhRA\nHostname haqida darslik: https://youtu.be/L4YK7ETirLU",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=kc-WkMBIpvM"
+  },
+  {
+    "name": "Qurilmalar (hardware) haqida ma'lumot beruvchi komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\ndmesg / cpuinfo / meminfo / lshw / free / lspci / lsusb -tv / dmidecode / hdparm / badblocks buyruqlari",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=ZICJtye0E0Q"
+  },
+  {
+    "name": "Foydalanuvchilarni boshqarish uchun komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nid / last / who / whoami / usermod / groupadd / useradd / adduser / deluser / userdel\nid haqida darslik: https://youtu.be/sH8KsUkSuKk",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=m-PhnbHVU-g"
+  },
+  {
+    "name": "Fayllar bilan ishlash uchun komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nls / mkdir / rmdir  / rm / cp / ln / touch / cat / more / head / tail / wc\n\nsoft va hard link haqida darslik: https://youtu.be/fAR3RSnAjlI",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=G31mX30xajk"
+  },
+  {
+    "name": "Protseslar bilan ishlash uchun komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nps / ps aux / top / htop / kill / killall / pkill / xkill / bg / fg",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=bW7YI9wmS-M"
+  },
+  {
+    "name": "Tarmoqlarga oid umumiy komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nifconfig / ip  a / ip addr show / ip address add / ethtool / ping / dig / hostname / wget / netstat ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=og3ucxxGk1w"
+  },
+  {
+    "name": "Kompreslash va arxivlash bo'yicha komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\ntar / gzip",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=g2NC1AWvbvE"
+  },
+  {
+    "name": "Linux tizimida kerakli fayl va kataloglarni qidirish uchun komandalar (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\ngrep / find",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=puCkGJBEy9A"
+  },
+  {
+    "name": "Fayllarni boshqa tizim (server yoki kompyuter) ga o'tkazish (Qisqacha tushuncha)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nscp",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=51HLU54S0mo"
+  },
+  {
+    "name": "#37 Ichki va tashqi komandalar turini aniqlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nwhich / type ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=SLYcmWHcGrk"
+  },
+  {
+    "name": "Zararli saytlar ro'yhati va bu saytlarga yo'naltirishni to'sish",
+    "desc": "Assalomu alaykum bugun sizlar bilan zararli saytlarni blocklashni o'rganamiz.\nFile: https://t.me/mybigdatauz/337",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=su49QzbkBSQ"
+  },
+  {
+    "name": "Kali Linux 2021.1 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Kali Linux tizimini o'rnatamiz.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=0p8VfyS4Ld4"
+  },
+  {
+    "name": "Ubuntu 21.04 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz ubuntu distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=fzz_T4LCkI4"
+  },
+  {
+    "name": "Manjaro 21.0.3 ni o'rnarish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Manjaro operatsion tizimini o'rnatamiz.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=yJewv5dIBZg"
+  },
+  {
+    "name": "Pop!_OS 20.10 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimizda Pop!_OS operatsion tizimini o'rnatamiz.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=Wob5BXC0v4U"
+  },
+  {
+    "name": "Elementary OS 5.1 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Elementary OS distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=6TsjoWSwbJ0"
+  },
+  {
+    "name": "Windows & Manjaro Dual boot qilib o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimizda Windows va Manjaro distributivini bitta kompyuterga dual boot qilib o'rnatishni o'rganamiz. ",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=O5k3ZyQbKic"
+  },
+  {
+    "name": "Zorin OS 15.3 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz ZorinOS distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=w9ScnNlIE2E"
+  },
+  {
+    "name": "Linux lite ni o'rnatish",
+    "desc": "https://www.youtube.com/watch?v=EbGmYfYAtYs",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=EbGmYfYAtYs"
+  },
+  {
+    "name": "Linux mint ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Linux Mint distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=pBLLN6miqCM"
+  },
+  {
+    "name": "Debian 10.9 ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Debian distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=pfN9_n5LB-A"
+  },
+  {
+    "name": "Deepin ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Deepin distributivini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=NQdSQSTiGHo"
+  },
+  {
+    "name": "Garuda linux (Gaming Edition) ni o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimiz Garuda linuxni distributivining o'yin uchun moslashtirilgan versiyasini o'rnatish haqida bo'ladi.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=X0l0zkxmM6I"
+  },
+  {
+    "name": "Linuxga NVIDIA video kartasini o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsimizda NVIDIA driverlarini o'rnatishni o'rganib olamiz.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=tl5l8TNEdt0"
+  },
+  {
+    "name": "Windowsda Linux dasturlarini ishga tushirish (WSL)",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\nWSL nima, WSL/WSL2 , ubuntuni WSL orqali o'rnatish.\n\nKomandalar: https://lunix.uz/wsl-nima/",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=auMyUaQA1O4"
+  },
+  {
+    "name": "Linuxni dizaynini o'zgartirish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugun linuxdagi quyidagi narsalarni o'zgartirishni o'rganamiz:\n\nMavzu/ikonkalar/shell/wallpaper va hkz",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=c49Df6eQgfs"
+  },
+  {
+    "name": "Linuxga anaconda o'rnatish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nLinux operatsion tizimiga Anaconda 3 ni o'rnatish / jupyter notebook va sozlamalari",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=4lJs2BMHHkM"
+  },
+  {
+    "name": "#22 Bleachbit dasturi | linuxni keraksiz fayllarini tozalash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nBleachbit dasturi orqali tizimdagi keraksiz fayllarini, amallar tarixini, forensic analiz natijasida chiqishi mumkin bo'lgan ma'lumotlar tarixini o'chirishni o'rganamiz",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=iUEgviWej7M"
+  },
+  {
+    "name": "Unable to access, error mounting xatolikni to'g'irlash",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nDisklarni yoqishda yuz beradigan xatolikni to'girlashni o'rganamiz, agar siz biror fayl yaratmoqchi bo'lganingizda yoki nusxa ko'chirganingizda read-only permission denied xatosini ko'rsatsa shu usuldan foydalanib ham to'g'irlashingiz mumkin.",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=6Yt078WMSH8"
+  },
+  {
+    "name": "Python faylni serverda ishga tushirish",
+    "desc": "Assalomu alaykum,  darslarni davom etamiz. Bugungi darsda o'rganadigan narsalarimiz:\n\nPython kodimizni shaxsiy serverimizda 24 soat ishlab turadigan qilib ishga tushirish",
+    "author": "Lunix",
+    "link": "https://www.youtube.com/watch?v=UbpYA4q0EUI"
   }
 ]
