@@ -34,8 +34,6 @@ const webhook = async () => {
     }
 
     switch (url.pathname) {
-      case "/spotify":
-        return new Response(req.url);
       case "/webhook":
         try {
           await bot.api.setWebhook(`https://${url.hostname}/bot`);
@@ -44,7 +42,7 @@ const webhook = async () => {
           return new Response("Couldn't succeed with installing webhook");
         }
       default:
-        return Response.redirect("https://t.me/xinuxuz", 302);
+        return Response.redirect("https://t.me/xinitrabot", 302);
     }
   });
 };
