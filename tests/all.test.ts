@@ -14,18 +14,18 @@ const childObjects = ["name", "desc", "author", "link"];
 
 Deno.test("Testing for Object child", () => {
   for (const item of data) {
-      for (const prop of Object.keys(item)) {
-          if (!childObjects.includes(prop)) {
-              throw new Error(`Unknown property at ${item.name}`)
-          }
+    for (const prop of Object.keys(item)) {
+      if (!childObjects.includes(prop)) {
+        throw new Error(`Unknown property at ${item.name}`);
       }
+    }
   }
 });
 
 Deno.test("Testing for URL Format", () => {
-    for (const item of data) {
-        if (!pattern.test(item.link)) {
-            throw new Error(`Not valid URL Format at ${item.name}`)
-        }
+  for (const item of data) {
+    if (!pattern.test(item.link)) {
+      throw new Error(`Not valid URL Format at ${item.name}`);
     }
+  }
 });

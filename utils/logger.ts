@@ -7,7 +7,7 @@ import {
 type Status = "info" | "warning" | "fail";
 const logMessage = "[SCRAPE] ";
 
-export default async (message: string, status: Status = "info") => {
+export default (message: string, status: Status = "info") => {
   switch (status) {
     case "info":
       console.log(green(logMessage + message));

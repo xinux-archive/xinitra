@@ -1,6 +1,7 @@
 import { Composer, Context, Fuse, InlineKeyboard } from "../deps.ts";
 import data from "../all.json" assert { type: "json" };
 import { Video } from "../types/videos.ts";
+import { Search } from "../types/search.ts";
 const composer = new Composer();
 
 const options = {
@@ -12,9 +13,9 @@ const options = {
 };
 const fuse = new Fuse.default(data, options);
 
-composer.inlineQuery(/(.*)/ig, async (ctx: Context): Promise<any> => {
+composer.inlineQuery(/(.*)/ig, async (ctx: Context) => {
   if (ctx.inlineQuery?.query) {
-    const search = fuse.search(ctx.inlineQuery?.query).map((item: any) =>
+    const search = fuse.search(ctx.inlineQuery?.query).map((item: Search) =>
       item.item
     ).slice(0, 49);
     return await ctx.answerInlineQuery(search.map((item: Video) => ({

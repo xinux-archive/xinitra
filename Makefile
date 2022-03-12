@@ -8,7 +8,7 @@ fmt:
 	deno fmt --config deno.json
 
 lint:
-	deno lint
+	deno lint --config deno.json
 
 compile:
 	deno compile --allow-all mod.ts
