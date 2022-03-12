@@ -15,3 +15,5 @@ compile:
 
 scrape:
 	deno run --allow-all utils/scrape.ts
+test:
+	deno test

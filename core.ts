@@ -9,6 +9,9 @@ export const handle = webhookCallback(bot, "std/http");
 const initializer = async () => {
   await console.log(blue("[INFO]"), `bot is starting on ${env["HOST"]}`);
   await delta(bot);
+  await bot.catch((error) => {
+    console.log(error, error.ctx.api);
+  });
 };
 
 const webhook = async () => {

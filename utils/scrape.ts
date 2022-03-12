@@ -22,6 +22,8 @@ const scrap = async () => {
     await logger(e.message, "fail");
   }
 
+  await logger("This many courses we have: " + output.length);
+
   // Writing all information to all.json
   await Deno.writeTextFile("all.json", JSON.stringify(output));
   await logger("information has been written as all.json");
