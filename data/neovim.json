@@ -7,31 +7,31 @@
   },
   {
     "name": "Install Neovim Nightly version",
-    "desc": "Assalomu Aleykum hammaga qadrli do'stlar. Bu video darsimizda Neovim Nightly(0.5.0-dev+nightly) versiyasini o'z Distributivimizga o'rnatishni ko'rib chiqamiz\n\nPost\n------------------------------------------------------------------------------------\nhttps://komildeveloper.vercel.app/posts/nvim-nightly-install\n",
+    "desc": "Assalomu Aleykum hammaga qadrli do'stlar. Bu video darsimizda Neovim Nightly(0.5.0-dev+nightly) versiyasini o'z Distributivimizga o'rnatishni ko'rib chiqamiz\n\nPost\nhttps://komildeveloper.vercel.app/posts/nvim-nightly-install\n",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=7kKyzYS9yw0"
   },
   {
     "name": "Neovim Kursi 1-Dars | Basic Neovim Options & Keymappings",
-    "desc": "Assalomu Aleykum hammaga qadrli do'stlar. Bu video darsimizda Neovim options & keymappings haqida ma'lumotga ega bo'lasiz\n\nPOST\n------------------------------------------------------------------------------------\nhttps://komildeveloper.vercel.app/posts/settings-keymappings\n\nBLOGS\n------------------------------------------------------------------------------------\nKeymappings\nhttps://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)\n\nOptions\nhttps://www.shortcutfoo.com/blog/top-50-vim-configuration-options/",
+    "desc": "Assalomu Aleykum hammaga qadrli do'stlar. Bu video darsimizda Neovim options & keymappings haqida ma'lumotga ega bo'lasiz\n\nPOST\nhttps://komildeveloper.vercel.app/posts/settings-keymappings\n\nBLOGS\nKeymappings\nhttps://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)\n\nOptions\nhttps://www.shortcutfoo.com/blog/top-50-vim-configuration-options/",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=hgEdtNtbsLI"
   },
   {
     "name": "Neovim Kursi 2-Dars | Install Plugins with vim-plug",
-    "desc": "POST\n------------------------------------------------------------------------------------\nhttps://komildeveloper.vercel.app/posts/install-vim-plug\n\nVIM-PLUG\nhttps://github.com/junegunn/vim-plug",
+    "desc": "POST\nhttps://komildeveloper.vercel.app/posts/install-vim-plug\n\nVIM-PLUG\nhttps://github.com/junegunn/vim-plug",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=FzrzTPWr4Jk"
   },
   {
     "name": "Neovim Kursi 3-Dars | Colorscheme o'rnatamiz",
-    "desc": "BLOG\n------------------------------------------------------------------------------------\nhttps://komildeveloper.vercel.app/posts/install-colorscheme\n\nOneDark\n------------------------------------------------------------------------------------\nhttps://github.com/joshdick/onedark.vim",
+    "desc": "BLOG\nhttps://komildeveloper.vercel.app/posts/install-colorscheme\n\nOneDark\nhttps://github.com/joshdick/onedark.vim",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=lbqLDRpayr0"
   },
   {
     "name": "Neovim Kursi 4-Dars | Neovim-ni Coc bilan VSCode kabi sozlaymiz",
-    "desc": "BLOG\n------------------------------------------------------------------------------------\nhttps://komildeveloper.vercel.app/posts/install-coc\n\nCoc.nvim\n------------------------------------------------------------------------------------\nhttps://github.com/neoclide/coc.nvim",
+    "desc": "BLOG\nhttps://komildeveloper.vercel.app/posts/install-coc\n\nCoc.nvim\nhttps://github.com/neoclide/coc.nvim",
     "author": "Komil Developer",
     "link": "https://www.youtube.com/watch?v=Qx8ZOQBms68"
   },

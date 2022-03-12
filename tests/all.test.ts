@@ -1,7 +1,3 @@
-import {
-  assertArrayIncludes,
-  assertEquals,
-} from "https://deno.land/std@0.129.0/testing/asserts.ts";
 import data from "../all.json" assert { type: "json" };
 
 const pattern = new RegExp(
@@ -18,7 +14,11 @@ const childObjects = ["name", "desc", "author", "link"];
 
 Deno.test("Testing for Object child", () => {
   for (const item of data) {
-    assertArrayIncludes(childObjects, Object.keys(item));
+      for (const prop of Object.keys(item)) {
+          if (!childObjects.includes(prop)) {
+              throw new Error(`Unknown property at ${item.name}`)
+          }
+      }
   }
 });
 
