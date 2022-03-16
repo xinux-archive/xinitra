@@ -15,5 +15,9 @@ compile:
 
 scrape:
 	deno run --allow-all utils/scrape.ts
+
+scrape-bin:
+	deno compile --allow-all youtube.ts
+
 test:
 	deno test
