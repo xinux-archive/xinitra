@@ -32,7 +32,8 @@ if (Deno.args.length !== 0) {
     const channel = Deno.args[0];
     const request = await rest(channel);
     const data = await json(request);
-    const defaults: string = request?.items[0].snippet.channelTitle.toLowerCase()
+    const defaults: string = request?.items[0].snippet.channelTitle
+      .toLowerCase()
       .replace(/\s/g, "");
     const fileName =
       prompt(yellow(`Enter name for file (default: ${defaults}): `)) ||
@@ -42,8 +43,12 @@ if (Deno.args.length !== 0) {
       new TextEncoder().encode(data),
     );
     console.log(green("Scraping data from API has been completed"));
-  } catch (e) {
-    console.log(red("Probably wrong channel or internet issues, try to change channel id!"));
+  } catch (_) {
+    console.log(
+      red(
+        "Probably wrong channel or internet issues, try to change channel id!",
+      ),
+    );
     Deno.exit(1);
   }
 } else {
