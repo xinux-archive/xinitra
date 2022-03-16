@@ -1,10 +1,7 @@
 name: Deploy CI
 
-on:
-  workflow_run:
-    workflows: ["Scrape CI"]
-    types:
-      - completed
+on: [push]
+
 
 jobs:
   deploy:
