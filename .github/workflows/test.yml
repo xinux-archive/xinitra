@@ -22,3 +22,6 @@ jobs:
 
       - name: Lint
         run: deno lint --config deno.json
+
+      - name: Test
+        run: deno run --allow-all utils/scrape.ts && deno test --allow-all
