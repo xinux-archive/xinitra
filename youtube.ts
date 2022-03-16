@@ -19,18 +19,17 @@ const rest = async (channel: string): Promise<YoutubeApi> => {
 
 const chars: { [key: string]: string } = {
   "&#39;": "'",
-  "&quot;": "\""
-
-}
+  "&quot;": '"',
+};
 
 const parser = (query: string) => {
-  let base = query
-  for (const char of Object.keys(chars) ) {
-    const reg = new RegExp(char, 'gm')
-    base = base?.replace(reg, chars[char])
+  let base = query;
+  for (const char of Object.keys(chars)) {
+    const reg = new RegExp(char, "gm");
+    base = base?.replace(reg, chars[char]);
   }
-  return base
-}
+  return base;
+};
 
 const json = (request: YoutubeApi) => {
   const mapper = request.items.map((item) => ({
