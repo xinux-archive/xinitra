@@ -17,10 +17,25 @@ const rest = async (channel: string): Promise<YoutubeApi> => {
   return await request.json();
 };
 
+const chars: { [key: string]: string } = {
+  "&#39;": "'",
+  "&quot;": "\""
+
+}
+
+const parser = (query: string) => {
+  let base = query
+  for (const char of Object.keys(chars) ) {
+    const reg = new RegExp(char, 'gm')
+    base = base?.replace(reg, chars[char])
+  }
+  return base
+}
+
 const json = (request: YoutubeApi) => {
   const mapper = request.items.map((item) => ({
-    "name": item?.snippet.title.replace(/&#39;/gm, "'"),
-    "desc": item?.snippet.description.replace(/&#39;/gm, ""),
+    "name": parser(item?.snippet.title),
+    "desc": parser(item?.snippet.description),
     "author": item.snippet.channelTitle,
     "link": `https://www.youtube.com/watch?v=${item.id.videoId}`,
   }));
