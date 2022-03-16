@@ -19,8 +19,8 @@ const rest = async (channel: string): Promise<YoutubeApi> => {
 
 const json = (request: YoutubeApi) => {
   const mapper = request.items.map((item) => ({
-    "name": item.snippet.title,
-    "desc": item.snippet.description,
+    "name": item?.snippet.title.replace(/&#39;/gm, "'"),
+    "desc": item?.snippet.description.replace(/&#39;/gm, ""),
     "author": item.snippet.channelTitle,
     "link": `https://www.youtube.com/watch?v=${item.id.videoId}`,
   }));
