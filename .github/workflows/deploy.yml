@@ -18,6 +18,23 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
 
+      - name: Set up Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: vx.x.x
+
+      - name: Run Scraper
+        run: deno run --allow-all utils/scrape.ts
+
+      - name: Upload all changes
+        run: |
+          git config user.name 'OwOssimo Robinson'
+          git config user.email owossimo@icloud.com
+          git add .
+          [[ -z $(git status -uno --porcelain) ]] && echo "No updates detected, no need for push" && exit 0;
+          git commit -m "Scraped all datas"
+          git push origin main --force
+
       # TODO(uwussimo): add a build step here
 
       - name: Upload to Deno Deploy
