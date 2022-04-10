@@ -7,7 +7,8 @@ export const message = `<b>Mavjud komandalar:</b>` +
   `\n` +
   `\n` +
   `/help - <code>shu habarni ko'rsatish</code>` +
-  `\n`;
+  `\n` +
+  `/distro - <code>distributlar haqida</code>`;
 
 export const keyboard = start.keyboard;
 
