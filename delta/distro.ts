@@ -13,7 +13,7 @@ composer.command("distro", async (ctx: Context): Promise<void> => {
   }
 
   if (pager(2).length > 0) {
-    keyboard.text(`Next ➡️`, `distro_2`);
+    keyboard.text(`Keyingi ➡️`, `distro_2`);
   }
 
   await ctx.reply(ctxMenuText, {
