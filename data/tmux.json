@@ -1,0 +1,32 @@
+[
+  {
+    "name": "TMUX Kursi 1-Dars - Intro",
+    "desc": "",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=YnwbTwdvP4k"
+  },
+  {
+    "name": "TMUX Kursi 2-Dars - Sessions",
+    "desc": "",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=h8W_PN6XS-4"
+  },
+  {
+    "name": "TMUX Kursi 3-Dars - Windows",
+    "desc": "",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=yuXKHV6r0Ig"
+  },
+  {
+    "name": "TMUX Kursi 4-Dars Panes",
+    "desc": "",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=33zUlyl7Rzs"
+  },
+  {
+    "name": "TMUX Kursi 5-Dars - Copy Mode",
+    "desc": "",
+    "author": "Komil Developer",
+    "link": "https://www.youtube.com/watch?v=OyU2Vkz84sA"
+  }
+]
