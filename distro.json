@@ -155,7 +155,7 @@
   },
   {
     "name": "MacOS",
-    "about": "Apple INC. Tominidan Mac kompyuter va noutbooklari uchungina ishlab chiqilgan. Qulay va chiroyli grafik ko'rinish va qulaylikka ega UNIX avlodi.",
+    "about": "Apple INC. Tomonidan Mac kompyuter va noutbooklari uchungina ishlab chiqilgan. Qulay va chiroyli grafik ko'rinish va qulaylikka ega UNIX avlodi.",
     "callback": "macos",
     "link": "https://www.apple.com/macos"
   }
