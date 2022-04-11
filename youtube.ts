@@ -1,5 +1,5 @@
-import "./config.ts";
-import env from "./config.ts";
+import "./utils/config.ts";
+import env from "./utils/config.ts";
 import { YoutubeApi } from "./types/youtube.ts";
 import {
   green,
