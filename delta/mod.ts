@@ -9,4 +9,5 @@ export default async (bot: Bot) => {
   await bot.use(start);
   await bot.use(help);
   await bot.use(distro);
+  // await bot.use(book);
 };
