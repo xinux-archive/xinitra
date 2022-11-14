@@ -7,13 +7,13 @@
   },
   {
     "name": "#0x1 SQLi haqida umumiy tushuncha | 1-labaratoriya - Yashirin ma'lumotlarni olish",
-    "desc": "Bugungi darsimiznda SQLi nima ekanligini, uning ta'siri, SQLi turlari haqida qisqacha gaplashamiz va 1-labaratoriyamizni ishlab ko'ramiz.",
+    "desc": "Bugungi darsimizda SQLi nima ekanligini, uning ta'siri, SQLi turlari haqida qisqacha gaplashamiz va 1-labaratoriyamizni ishlab ko'ramiz.",
     "author": "Lunix",
     "link": "https://youtu.be/7HCKeII11bo"
   },
   {
     "name": "0x2 Ilova logikasiga ta'sir o'tkazish | 2-labaratoriya - Loginni aylanib o'tishga imkon beruvchi SQLi",
-    "desc": "Bugungi darsimiz Subverting application logic SQLi ya'ni SQLi orqali websaytlar logikasiga ta'sir o'tkazish va shu orqali istalgan foydalanuvchi sifatida tizimga kirish. Shu bilan birgalikda labaratoriya orqali buni amalda qo'llash.",
+    "desc": "Bugungi darsimiz Subverting application logic SQLi ya'ni SQLi orqali veb saytlar logikasiga ta'sir o'tkazish va shu orqali istalgan foydalanuvchi sifatida tizimga kirish, shu bilan birgalikda labaratoriya orqali buni amalda qo'llash.",
     "author": "Lunix",
     "link": "https://youtu.be/yWhWic0OKNE"
   },
@@ -25,19 +25,19 @@
   },
   {
     "name": "0x4 SQL Ineksiya UNION hujumlari 2-qism | 4-Labaratoriya",
-    "desc": "Bugungi videoda biz SQL ineksiya UNION hujumida foydali ma'lumotlar turiga ega ustunlarni topishni ko'rib chiqdik. Shuningdek Labaratoriya ham ishladik.",
+    "desc": "Bugungi videoda biz SQL ineksiya UNION hujumida foydali ma'lumotlar turiga ega ustunlarni topishni ko'rib chiqdik. Shuningdek labaratoriya ham ishladik.",
     "author": "Lunix",
     "link": "https://youtu.be/JPAcCzWwBfQ"
   },
   {
     "name": "0x5 SQL Ineksiya UNION Hujumlari 3-qism | 5-laboratoriya",
-    "desc": "Bugungi videoda biz Qiziqarli ma'lumotlarni olish uchun UNION SQL ineksiya hujumidan foydalanishni ko'rib chiqdik.",
+    "desc": "Bugungi videoda biz qiziqarli ma'lumotlarni olish uchun UNION SQL ineksiya hujumidan foydalanishni ko'rib chiqdik.",
     "author": "Lunix",
     "link": "https://youtu.be/rp4Fe-fRnS0"
   },
   {
     "name": "0x6 SQL Ineksiya Union Hujumlari 4-qism | 6-laboratoriya",
-    "desc": "Bugungi videoda biz SQL ineksiya UNION hujumida Bitta ustun ichida bir nechta qiymatlarni olishni ko'rib chiqdik. Shuningdek Labaratoriya ham ishladik.",
+    "desc": "Bugungi videoda biz SQL ineksiya UNION hujumida bitta ustun ichida bir nechta qiymatlarni olishni ko'rib chiqdik. Shuningdek Labaratoriya ham ishladik.",
     "author": "Lunix",
     "link": "https://youtu.be/GM9yB4DYzkA"
   }
