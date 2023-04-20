@@ -9,7 +9,7 @@ composer.command("distro", async (ctx: Context): Promise<void> => {
   const keyboard = new InlineKeyboard();
 
   for (const community of pager(1)) {
-    keyboard.text(community.name, `distro_${community.callback}`).row();
+    keyboard.text(community.name, `detail_1_${community.callback}`).row();
   }
 
   if (pager(2).length > 0) {
